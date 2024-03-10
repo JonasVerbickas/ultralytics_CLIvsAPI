@@ -1,0 +1,10 @@
+# Ultralytics YOLO 🚀, GPL-3.0 license
+# Default training settings and hyperparameters for medium-augmentation COCO training
+
+task: detect  # inference task, i.e. detect, segment, classify
+mode: train  # YOLO mode, i.e. train, val, predict, export
+
+# Train settings -------------------------------------------------------------------------------------------------------
+model: yolov8n.pt  # path to model file, i.e. yolov8n.pt, yolov8n.yaml
+data: visdrone.yaml # path to data file, i.e. coco128.yaml
+epochs: 1
